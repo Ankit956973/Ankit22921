@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+
+      fbq('init', '1914065185870015');
+      fbq('track', 'PageView');
+      fbq('track', 'Purchase', {
+        value: 599,
+        currency: 'INR'
+      });
+    </script>
+
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1914065185870015&ev=Purchase&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You — AgencyCRM</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: 'Inter', sans-serif;
+        background: #0F172A;
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+      .container {
+        max-width: 560px;
+        width: 100%;
+        text-align: center;
+      }
+      .icon {
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+      }
+      h1 {
+        font-size: 2.25rem;
+        font-weight: 800;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        color: #fff;
+      }
+      p {
+        font-size: 1.1rem;
+        color: #94a3b8;
+        line-height: 1.7;
+        margin-bottom: 1.5rem;
+      }
+      .highlight {
+        color: #10b981;
+        font-weight: 600;
+      }
+      .card {
+        background: #1e293b;
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 1rem;
+        padding: 1.5rem;
+        margin: 2rem 0;
+        text-align: left;
+      }
+      .card h2 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: #cbd5e1;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        margin-bottom: 1rem;
+      }
+      .step {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+        margin-bottom: 0.875rem;
+        font-size: 0.95rem;
+        color: #94a3b8;
+      }
+      .step:last-child { margin-bottom: 0; }
+      .step-num {
+        background: #10b981;
+        color: #fff;
+        font-weight: 700;
+        font-size: 0.75rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-top: 0.1rem;
+      }
+      .btn {
+        display: inline-block;
+        background: #10b981;
+        color: #fff;
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 0.875rem 2rem;
+        border-radius: 0.75rem;
+        text-decoration: none;
+        transition: background 0.2s;
+      }
+      .btn:hover { background: #059669; }
+      .footer-note {
+        margin-top: 2rem;
+        font-size: 0.85rem;
+        color: #475569;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="icon">🎉</div>
+      <h1>You're In! Welcome to AgencyCRM</h1>
+      <p>
+        Your payment of <span class="highlight">₹599</span> was successful.<br>
+        Check your email — your access link is on its way.
+      </p>
+
+      <div class="card">
+        <h2>What happens next</h2>
+        <div class="step">
+          <div class="step-num">1</div>
+          <span>Check your inbox (and spam folder) for the delivery email from Digifymart.</span>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <span>Click the link to make a copy of AgencyCRM into your Google Drive.</span>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <span>Follow the quick-start guide inside the sheet to set up your agency in under 30 minutes.</span>
+        </div>
+      </div>
+
+      <a href="/" class="btn">← Back to Home</a>
+
+      <p class="footer-note">
+        Questions? Reach us at support@digifymart.com
+      </p>
+    </div>
+  </body>
+</html>
